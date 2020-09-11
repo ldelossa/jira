@@ -2,10 +2,20 @@
 ## [Unreleased]
 
 
+<a name="v1.0.24-test3"></a>
+## [v1.0.24-test3] - 2020-09-11
+### Cicd
+- [1782135](https://github.com/go-jira/go-jira/commit/178213527c14a329049e5da5dbcc453931ab9e3a): put gox in right place
+
 <a name="v1.0.24-test2"></a>
 ## [v1.0.24-test2] - 2020-09-11
+### Chore
+- [3f54875](https://github.com/go-jira/go-jira/commit/3f54875cb219d13d88d18529e471a6dff5948e77): v1.0.24-test2 changelog bump
 ### Cicd
 - [840c3df](https://github.com/go-jira/go-jira/commit/840c3df879defe8ebbd7f31f3e2bd121475bfffc): add gox to release workflow
+### Pull Requests
+- Merge pull request [#3](https://github.com/go-jira/go-jira/issues/3) from ldelossa/ready-v1.0.24-test2
+
 
 <a name="v1.0.24-test"></a>
 ## [v1.0.24-test] - 2020-09-11
@@ -431,7 +441,8 @@ limit of 1000 results in a single query.
 - Merge pull request [#2](https://github.com/go-jira/go-jira/issues/2) from jaybuff/clean-up
 
 
-[Unreleased]: https://github.com/go-jira/go-jira/compare/v1.0.24-test2...HEAD
+[Unreleased]: https://github.com/go-jira/go-jira/compare/v1.0.24-test3...HEAD
+[v1.0.24-test3]: https://github.com/go-jira/go-jira/compare/v1.0.24-test2...v1.0.24-test3
 [v1.0.24-test2]: https://github.com/go-jira/go-jira/compare/v1.0.24-test...v1.0.24-test2
 [v1.0.24-test]: https://github.com/go-jira/go-jira/compare/v1.0.23...v1.0.24-test
 [v1.0.23]: https://github.com/go-jira/go-jira/compare/v1.0.22...v1.0.23
