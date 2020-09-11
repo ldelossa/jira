@@ -18,12 +18,12 @@ jobs:
           cat <<.
           ::set-env name=VERSION::${tag}
           .
-      - name: add gox
-        run: go install github.com/mitchellh/gox
       - name: Checkout
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+      - name: add gox
+        run: go install github.com/mitchellh/gox
       - name: ChangeLog
         shell: bash
         run: |
