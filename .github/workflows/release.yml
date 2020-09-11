@@ -39,6 +39,7 @@ jobs:
           ::set-env name=CHANGELOG::${chglog}
           .
       - name: Create Release
+        id: create_release
         uses: actions/create-release@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
