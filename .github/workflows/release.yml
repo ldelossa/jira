@@ -59,8 +59,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./dist/github.com/go-jira/jira-drawin-amd64
-          asset_name: jira-drawin-amd64
+          asset_path: ./dist/github.com/go-jira/jira-darwin-amd64
+          asset_name: jira-darwin-amd64
           asset_content_type: application/octet-stream
       - name: "Publish Linux 386"
         uses: actions/upload-release-asset@v1
