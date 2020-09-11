@@ -2,11 +2,17 @@
 ## [Unreleased]
 
 
+<a name="v1.0.24-test2"></a>
+## [v1.0.24-test2] - 2020-09-11
+### Cicd
+- [840c3df](https://github.com/go-jira/go-jira/commit/840c3df879defe8ebbd7f31f3e2bd121475bfffc): add gox to release workflow
+
 <a name="v1.0.24-test"></a>
 ## [v1.0.24-test] - 2020-09-11
 ### Bugfix
 - [aa8dae7](https://github.com/go-jira/go-jira/commit/aa8dae7c5b7035e086bd60b3d354ffa43c30caf7): only build jira tool with gox
 ### Chore
+- [d4a6dc6](https://github.com/go-jira/go-jira/commit/d4a6dc6e6c62a4847d62330ecb44638b4107530f): v1.0.24-test changelog bump
 - [578c44c](https://github.com/go-jira/go-jira/commit/578c44c628e3134e4d46f3250baf46d6b054cfe8): v1.0.25 release
 ### Cicd
 - [b0ed5fb](https://github.com/go-jira/go-jira/commit/b0ed5fba88bde5d2af85d817964bc1115f35f9b9): automated changelog and release
@@ -21,6 +27,7 @@
 ### Username-Deprecation
 - [6a27e28](https://github.com/go-jira/go-jira/commit/6a27e28c61c45f4b2a6aff473cf28852a2df64a2): use email and display names
 ### Pull Requests
+- Merge pull request [#2](https://github.com/go-jira/go-jira/issues/2) from ldelossa/ready-v1.0.24-test
 - Merge pull request [#1](https://github.com/go-jira/go-jira/issues/1) from ldelossa/louis/automated-changelog-and-release
 - Merge pull request [#367](https://github.com/go-jira/go-jira/issues/367) from bbkane/master
 - Merge pull request [#349](https://github.com/go-jira/go-jira/issues/349) from aszenz/patch-1
@@ -424,7 +431,8 @@ limit of 1000 results in a single query.
 - Merge pull request [#2](https://github.com/go-jira/go-jira/issues/2) from jaybuff/clean-up
 
 
-[Unreleased]: https://github.com/go-jira/go-jira/compare/v1.0.24-test...HEAD
+[Unreleased]: https://github.com/go-jira/go-jira/compare/v1.0.24-test2...HEAD
+[v1.0.24-test2]: https://github.com/go-jira/go-jira/compare/v1.0.24-test...v1.0.24-test2
 [v1.0.24-test]: https://github.com/go-jira/go-jira/compare/v1.0.23...v1.0.24-test
 [v1.0.23]: https://github.com/go-jira/go-jira/compare/v1.0.22...v1.0.23
 [v1.0.22]: https://github.com/go-jira/go-jira/compare/v1.0.21...v1.0.22
